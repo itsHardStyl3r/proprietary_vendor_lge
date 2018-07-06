@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3ds/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/g3ds/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/g3ds/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    vendor/lge/g3ds/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/g3ds/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g3ds/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g3ds/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
@@ -59,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3ds/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/g3ds/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lge/g3ds/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/lge/g3ds/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/g3ds/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/g3ds/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/g3ds/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -74,3 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3ds/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/g3ds/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/lge/g3ds/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+
+PRODUCT_PACKAGES += \
+    libmdmdetect \
+    libperipheral_client
