@@ -33,8 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
     vendor/lge/g3-common/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/lge/g3-common/proprietary/vendor/etc/sensors/sensor_def_common.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_common.conf \
-    vendor/lge/g3-common/proprietary/vendor/framework/qcnvitems.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcnvitems.jar \
-    vendor/lge/g3-common/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/lge/g3-common/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g3-common/proprietary/vendor/lib/hw/consumerir.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.msm8974.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libHDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHDR.so \
@@ -179,4 +177,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtime_genoff \
     qcrilmsgtunnel \
-    shutdownlistener
+    shutdownlistener \
+    qcnvitems \
+    qcrilhook

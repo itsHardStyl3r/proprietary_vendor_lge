@@ -44,3 +44,17 @@ android_app_import {
 	soc_specific: true,
 }
 
+dex_import {
+	name: "qcnvitems",
+	owner: "lge",
+	jars: ["proprietary/vendor/framework/qcnvitems.jar"],
+	soc_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "lge",
+	jars: ["proprietary/vendor/framework/qcrilhook.jar"],
+	soc_specific: true,
+}
+
