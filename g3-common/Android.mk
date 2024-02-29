@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter g3 d850 d851 d852 d855 ls990 vs985 f400,$(TARGET_DEVICE)),)
+ifneq ($(filter g3 d850 d851 d852 d855 g3ds ls990 vs985 f400,$(TARGET_DEVICE)),)
 
 endif
